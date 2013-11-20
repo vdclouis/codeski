@@ -1,0 +1,73 @@
+@import "../bower_components/normalize-css/normalize.css";
+@import "fonts.css";
+@import "compass/css3";
+@import "compass/css3/user-interface";
+@import "compass/css3/filter";
+
+$gold: rgb(162, 131, 78);
+$golden: 1.61803398875;
+
+html {
+	background: url(../img/bg.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+	color: #fff;
+	text-decoration: 1px 1px 1px red;
+	font-size: 4em;
+	font-family: G-medium;
+	-webkit-font-smoothing: antialiased;
+}
+
+p {
+	padding: 30px;
+	color: #fff;
+	font-size: 1.2em;
+	font-family: body;
+	line-height: 1.4;
+}
+
+a {
+	outline: 0;
+	color: white;
+	text-decoration: none;
+}
+
+hr {
+	width: 400px / $golden;
+}
+
+.logo {
+	padding-top: 20px;
+	width: 173px;
+	pointer-events: none;
+}
+
+.social {
+	width: 62px;
+	@include transition(all .5s);
+
+	&:hover {
+		@include filter(invert(1));
+		@include scale(0.7);
+	}
+}
+
+.container {
+	@include user-select(none);
+	@include box-shadow(0px 0px 8px rgba(0, 0, 0, 0.4));
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	display: block;
+	margin-top: -(400px * $golden) / 2;
+	margin-left: -200px;
+	width: 400px;
+	height: 400px * $golden;
+	background: rgba(0,0,0,.6);
+	text-align: center;
+}

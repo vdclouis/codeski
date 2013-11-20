@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'G-medium';
+    src: url('fonts/gestalt-htf-linear-medium-webfont.eot');
+    src: url('fonts/gestalt-htf-linear-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/gestalt-htf-linear-medium-webfont.woff') format('woff'),
+         url('fonts/gestalt-htf-linear-medium-webfont.ttf') format('truetype'),
+         url('fonts/gestalt-htf-linear-medium-webfont.svg#gestalt_htf-linear-medium') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'body';
+    src: url('fonts/HoeflerText-Roman.eot');
+    src: url('fonts/HoeflerText-Roman.eot?#iefix') format('embedded-opentype'),
+         url('fonts/HoeflerText-Roman.woff') format('woff'),
+         url('fonts/HoeflerText-Roman.ttf') format('truetype'),
+         url('fonts/HoeflerText-Roman.svg#HoeflerText-Roman') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
