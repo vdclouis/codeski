@@ -1,9 +1,8 @@
 @import "../bower_components/normalize-css/normalize.css";
-@import "fonts.css";
+@import "fonts.scss";
 @import "tooltip.scss";
 @import "compass/css3";
 @import "compass/css3/user-interface";
-@import "compass/css3/filter";
 
 $gold: rgb(162, 131, 78);
 $golden: 1.61803398875;
@@ -59,9 +58,9 @@ hr {
 
 	img {
 		width: 100px;
+		pointer-events: none;
 	}
 }
-
 
 .container {
 	@include user-select(none);
@@ -77,7 +76,6 @@ hr {
 	background: rgba(0,0,0,.6);
 	text-align: center;
 }
-
 
 @media only screen and (max-width: 400px) {
 	h1 {

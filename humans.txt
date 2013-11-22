@@ -1,0 +1,17 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Louis Van de Calseyde -- dev -- @vdclouis
+
+# THANKS
+
+    <name>
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    Normalize.css, Modernizr, Effeckt.css
+    SASS & Compass
+    Bower

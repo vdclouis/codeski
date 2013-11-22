@@ -23,7 +23,7 @@
 .effeckt-tooltip[data-effeckt-type="bubble"]::after {
   content: attr(data-effeckt-tooltip-text);
   position: absolute;
-  border-radius: 10px;
+  border-radius: 8px;
   background: black;
   color: white;
   padding: 0.45rem 0.8rem;
