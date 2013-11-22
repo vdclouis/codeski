@@ -50,12 +50,15 @@ hr {
 
 .icon {
 	border: none;
-	width: 80px;
+	margin-top: 5px;
 	@include transition(all .5s);
 
 	&:hover {
-		//@include filter(invert(1));
 		@include scale(0.7);
+	}
+
+	img {
+		width: 100px;
 	}
 }
 
@@ -83,8 +86,12 @@ hr {
 	.logo {
 		width: 100px;
 	}
-	.social {
-		width: 40px;
+	.icon {
+		margin-top: -10px;
+
+		img {
+			width: 60px;
+		}
 	}
 	hr {
 		width: 270px / $golden; 
