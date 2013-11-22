@@ -70,3 +70,25 @@ hr {
 	background: rgba(0,0,0,.6);
 	text-align: center;
 }
+
+
+@media only screen and (max-width: 400px) {
+	h1 {
+		font-size: 2.5em;
+	}
+	.logo {
+		width: 100px;
+	}
+	hr {
+		width: 270px / $golden; 
+	}
+	p {
+		font-size: 1em;
+	}
+	.container {
+		width: 270px;
+		height: 270px * $golden;
+		margin-top: -(270px * $golden) / 2;
+		margin-left: -135px;
+	}
+}
