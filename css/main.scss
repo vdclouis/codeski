@@ -1,5 +1,6 @@
 @import "../bower_components/normalize-css/normalize.css";
 @import "fonts.css";
+@import "tooltip.scss";
 @import "compass/css3";
 @import "compass/css3/user-interface";
 @import "compass/css3/filter";
@@ -34,6 +35,7 @@ a {
 	outline: 0;
 	color: white;
 	text-decoration: none;
+	border-bottom: 1px dotted white;
 }
 
 hr {
@@ -46,15 +48,17 @@ hr {
 	pointer-events: none;
 }
 
-.social {
-	width: 62px;
+.icon {
+	border: none;
+	width: 80px;
 	@include transition(all .5s);
 
 	&:hover {
-		@include filter(invert(1));
+		//@include filter(invert(1));
 		@include scale(0.7);
 	}
 }
+
 
 .container {
 	@include user-select(none);
@@ -78,6 +82,9 @@ hr {
 	}
 	.logo {
 		width: 100px;
+	}
+	.social {
+		width: 40px;
 	}
 	hr {
 		width: 270px / $golden; 
